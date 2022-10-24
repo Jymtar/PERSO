@@ -1,2 +1,6 @@
 .avoid-link {
   pointer-events: none !important;}
+#hmenu>li.mititle:hover>a {
+	background: green !important;
+	color: red !important;
+	}
