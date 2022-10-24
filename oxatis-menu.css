@@ -1,6 +1,1933 @@
-.avoid-link {
-  pointer-events: none !important;}
+/*-------------------------------------- MAJ JIM - 22 09 2022 */
+a:hover
+{
+	color: initial;
+}
+
+/*-------------------------------------- ACCUEIL */
+.ox-products .ox-product-name
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0c0c0c;
+	padding: 0 10px;
+}
+
+.PBCurrency .PBDiscount + .PBSalesPrice,.PBCurrency .PBSalesPrice
+{
+
+	font-size: 16px;
+	font-weight: 400;
+	color: #0c0c0c !important;
+	flex: 0 0 100%;
+	order: -10;
+}
+
+.PBCurrency .PBStrike
+{
+	color: #989797;
+	font-size: 16px;
+	flex: 0 0 100%;
+	margin-right: 10% !important;
+}
+
+
+.ox-product-price
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding-top: 0px !important;
+}
+.pre-header
+{
+	height: 32px;
+	/* 32 = hauteur bandeau */
+	line-height:32px;
+	/* 32 = hauteur bandeau */
+}
+
+.pre-header a,.pre-header #headertext
+{
+	color: #FFF;
+	font-size: 14px;
+	margin: 0 15px;
+}
+
+.pre-header a span
+{
+	padding-left: 10px;
+}
+
+.pre-header a:before
+{
+	display: inline-block;
+	font-family: OxatisIconFont!important;
+}
+
+.pre-header-telephone__container a:before
+{
+	content:"\f12a";
+	transform: rotate(90deg);
+}
+
+/* .pre-header-telephone__container
+{
+	background-image: url("lien_image");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 14px;
+	
+}  */
+
+.pre-header-contact__container a:before
+{
+	content:"\f129";
+}
+
+/* .pre-header-contact__container
+{
+	background-image: url("lien_image");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 14px;
+	
+} */
+
+.pre-header-livraison__container a:before
+{
+	content:"\f115";
+}
+
+/* .pre-header-livraison__container
+{
+	background-image: url("lien_image");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 14px;
+	
+} */
+
+.pre-header-informations__container a:before
+{
+	content:"\e905";
+}
+
+/* .pre-header-informations__container
+{
+	/*background-image: url("lien_image");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 14px;
+	
+} */
+
+/*------------------------------------- HEADER */
+/* taille logo - max-height = hauteur du logo */
+.header-logo__inner img
+{
+	max-height: 78px;
+	max-width: 100% !important;
+	vertical-align: middle;
+}
+
+/* textes panier et compte */
+.accountLink span,.cartPrice
+{
+	font-size: 13px;
+	font-weight: 300;
+	color: #000;
+}
+
+/* icones panier et compte */
+.accountLink:before
+{
+	font-size: 30px;
+	margin-bottom: 5px;
+	color: #bbbbc7;
+}
+
+.cartLink:before
+{
+	font-size: 30px;
+	margin-bottom: 5px;
+	color: #71406b;
+}
+
+/*.accountLink:before
+{
+	background-image: url("lien_image");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 41px;
+	height: 41px;
+	width: 37px;
+	content: " ";
+}
+
+.cartLink:before
+{
+	background-image: url("lien_image");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 41px;
+	height: 41px;
+	width: 37px;
+	content: " ";
+}
+
+.header-shop-cart__shop-cart
+{
+	line-height: 1.4;
+}
+
+*/
+/* textes panier et compte au survol */
+.accountLink:hover span,#headerInfoCart:hover .cartPrice
+{
+	color: #000;
+}
+
+/* icones panier et compte au survol */
+.accountLink:hover:before
+{
+	color: #bbbbc7;
+}
+
+#headerInfoCart:hover .cartLink:before
+{
+	color: #71406b;
+}
+
+/* champ recherche bordure */
+#headerSearchBlock .searchtext,#headerSearchBlock .searchtext+.blockbtn
+{
+	border-color: #d0d0d0;
+}
+
+/* champ recherche bordure au click */
+#headerSearchBlock .searchtext:focus,#headerSearchBlock .searchtext:focus+.blockbtn
+{
+	border-color: #d0d0d0;
+}
+
+/* champ recherche texte */
+#headerSearchBlock .searchtext
+{
+	color: #565656;
+    font-size: 12px;
+	/* border-radius: 50px 0 0 50px;
+	*/
+}
+
+/* champ recherche bouton */
+/* #headerSearchBlock .blockbtn
+{
+	border-radius: 0 50px 50px 0;
+	background-image: url("lien_image");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-left: 25px;
+	background-size: 24px 24px;
+	
+} */
+
+/* champ recherche loupe */
+#headerSearchBlock .blockbtn:before
+{
+	color: #bbbbc7;
+	/* content: "";
+	*/
+}
+
+/* champ recherche loupe au survol */
+#headerSearchBlock .blockbtn:hover:before
+{
+	color: #bbbbc7;
+}
+
+/* pastille quantite panier */
+#cartItems
+{
+	background-color: #94c11f;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/*-------------------------------------- TEXTES */
+body.PB,body.PBPW
+{
+	color: #565656;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.4;
+}
+
+input,select,select.facetlist,textarea
+{
+	color: #565656;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.loginSocialLink:hover,.PBLink:hover
+{
+	color: #565656;
+	text-decoration: underline !important;
+}
+
+/*-------------------------------------- TITRES */
+.PBPTitle, .PBSTitle,.PBCatTitle,.guestbook .PBLink .PBMainTxt,.PBRelatedPdtTitle.PBMainTxt,.PBUpSellPdtTitle.PBMainTxt
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#maincontainer.userdashboard .intro .PBMsg,#maincontainer.userdashboard .coupon .PBMsg,#maincontainer.userdashboard .usrfidelity .PBSTitle #maincontainer.addrbook .viewAddressList .sectiondata__title > td .PBSTitle
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*-------------------------------------- PRIX */
+.PBCurrency,.PBSalesPrice
+{
+	color: #666666 !important;
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Montserrat',sans-serif !important;
+}
+
+/*-------------------------------------- BOUTONS */
+a#btncheckout,a#btncontinue,a.c-app-preview-product-popup__btn,a.ox-btn--order
+{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #888888;
+	background-color: #f5f5f5;
+	border-color: #f5f5f5;
+}
+
+a#btncheckout:focus,a#btncheckout:hover,a#btncontinue:focus,a#btncontinue:hover,a.c-app-preview-product-popup__btn:focus,a.c-app-preview-product-popup__btn:hover,a.ox-btn--order:focus,a.ox-btn--order:hover
+{
+	color: #ffffff;
+	background-color: #888888;
+	border-color: #888888;
+}
+
+.blockfacet .blockbtn,.itemlist .subcatlist li a,.OxSearchPanelNavBar .OxSearchPanelBtn.PBMainTxt.OxSearchPanelNavBtn,a#btnAddAddr,a#btnChooseShippingAddress,a#btnclearcart,a#btngotocart,a#btnmodify,a#btnupdtcart,a.btnmain
+{
+	font-size: 12px;
+	color: #888888;
+	background-color: #f5f5f5;
+	border-color: #f5f5f5;
+}
+
+.blockfacet .blockbtn:focus,.blockfacet .blockbtn:hover,.itemlist .subcatlist li a:focus,.itemlist .subcatlist li a:hover,.OxSearchPanelNavBar .OxSearchPanelBtn.PBMainTxt.OxSearchPanelNavBtn:focus,.OxSearchPanelNavBar .OxSearchPanelBtn.PBMainTxt.OxSearchPanelNavBtn:hover,a#btnAddAddr:focus,a#btnAddAddr:hover,a#btnChooseShippingAddress:focus,a#btnChooseShippingAddress:hover,a#btnclearcart:focus,a#btnclearcart:hover,a#btngotocart:focus,a#btngotocart:hover,a#btnmodify:focus,a#btnmodify:hover,a#btnupdtcart:focus,a#btnupdtcart:hover,a.btnmain:focus,a.btnmain:hover,a.btnsub:focus,a.btnsub:hover
+{
+	color: #ffffff;
+	background-color: #888888;
+	border-color: #888888;
+}
+
+#blockuserlogout .logout a,#blockuserlogout .viewaccountinfo a,.btn,.c-button--primary,.c-button--secondary,.loginValid a#btncontinue,.ox-btn,.ox-btn--secondary,.ox-button a.btnmain,.OxSearchPanelBtn.PBMainTxt,.OxSearchPanelNavBar .PBMainTxt.OxSearchPanelNavBtn.OxSchPnlAdvBtn,.useraccount.userdashboard ul.menulist .LogOut .PBBtnStd,a#btnChooseShippingAddress,a#btnConnect,a#btnSelectAddr,a.c-button--secondary,input.PBBtnStd,input[type=button],input[type=submit]
+{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #888888;
+	background-color: #f5f5f5;
+	border-color: #f5f5f5;
+}
+
+.c-button--primary:focus,.c-button--primary:hover,.ox-btn--primary:focus,.ox-btn--primary:hover
+{
+	color: #ffffff;
+	background-color: #888888;
+	border-color: #888888;
+}
+
+a#btncancel
+{
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #888888;
+	background-color: #f5f5f5;
+	border-color: #f5f5f5;
+}
+
+a#btncancel:focus,a#btncancel:hover
+{
+	color: #ffffff;
+	background-color: #888888;
+	border-color: #888888;
+}
+
+a#btnSelectAddr:focus,a#btnChooseShippingAddress:focus,a#btnConnect:focus,.OxSearchPanelNavBar .PBMainTxt.OxSearchPanelNavBtn.OxSchPnlAdvBtn:focus,.loginValid a#btncontinue:focus,.ox-btn:focus,.ox-btn--secondary:focus,.btn:focus,.ox-button a.btnmain:focus,.c-button--secondary:focus,#blockuserlogout .viewaccountinfo a:focus,#blockuserlogout .logout a:focus,input:focus[type="button"],input:focus[type="submit"],input.PBBtnStd:focus,.c-button--primary:focus,.OxSearchPanelBtn.PBMainTxt:focus, .cartlineqty .PBBtnStd:focus, .useraccount.userdashboard ul.menulist .LogOut .PBBtnStd:focus, a#btnSelectAddr:hover,a#btnChooseShippingAddress:hover,a#btnConnect:hover,.OxSearchPanelNavBar .PBMainTxt.OxSearchPanelNavBtn.OxSchPnlAdvBtn:hover,.loginValid a#btncontinue:hover,.ox-btn:hover,.ox-btn--secondary:hover,.btn:hover,.ox-button a.btnmain:hover,.c-button--secondary:hover,#blockuserlogout .viewaccountinfo a:hover,#blockuserlogout .logout a:hover,input:hover[type="button"],input:hover[type="submit"],input.PBBtnStd:hover,.c-button--primary:hover,.OxSearchPanelBtn.PBMainTxt:hover, .cartlineqty .PBBtnStd:hover, .useraccount.userdashboard ul.menulist .LogOut .PBBtnStd:hover
+{
+	color: #ffffff;
+	background-color: #888888;
+	border-color: #888888;
+}
+
+.ox-btn--primary,.c-button--primary,a.c-button--primary
+{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #888888;
+	background-color: #f5f5f5;
+	border-color: #f5f5f5;
+}
+
+/* quantity page panier*/
+.cartlineqty .PBBtnStd:first-of-type
+{
+	color: #8F8F8F;
+	background-color: #F9F9F9;
+	border: 1px solid #E3E3E3;
+}
+
+.cartlineqty .PBBtnStd:nth-of-type(2)
+{
+	color: #212121;
+	background-color: #F5F5F5;
+	border: 1px solid #E3E3E3;
+}
+
+.cartlineqty input.PB
+{
+	border: 1px solid #E3E3E3;
+	border-width: 1px 0;
+}
+
+.cartlineqty .PBBtnStd:before
+{
+	font-size: 11px;
+}
+
+/* lien bouton retour fiche article */
+a#btnretitems:hover
+{
+	text-decoration: none;
+	color: #565656;
+}
+
+/*-------------------------------------- PAGINATION */
+div.navbar ul li span.off
+{
+	background-color: #f5f5f5;
+	color: #888888;
+	border-color: #f5f5f5;
+	pointer-events: none;
+}
+
+div.navbar ul li a:hover
+{
+	background-color: #888888;
+	color: #ffffff;
+	border-color: #888888;
+}
+
+div.navbar ul li a
+{
+	background-color: #FFF;
+	color: #959595;
+	border-color: #959595;
+}
+
+div.navbar select
+{
+	background-color: #FFF;
+	color: #959595;
+	border-color: #959595;
+}
+
+/*-------------------------------------- RETOUR HAUT DE PAGE */
+.c-cs-back-to-top .designBackColorMain
+{
+	background-color: #f5f5f5;
+}
+
+.c-cs-back-to-top .designBackColorMain:hover
+{
+	background-color: #888888;
+}
+
+/*-------------------------------------- BOUTONS ACTION */
+a#btnordernow,a.btnaddtocart,#headerInfoCart #cartContainer a#seeyourcart,#popupbtnarea a.c-button--primary
+{
+	background-color: #94c11f;
+	color: #FFF;
+	border: none;
+	font-family: 'Montserrat',sans-serif !important;
+}
+
+a#btnordernow:focus,a#btnordernow:hover,a.btnaddtocart:focus,a.btnaddtocart:hover,#headerInfoCart #cartContainer a#seeyourcart:focus,#headerInfoCart #cartContainer a#seeyourcart:hover,#popupbtnarea a.c-button--primary:focus,#popupbtnarea a.c-button--primary:hover
+{
+	background-color: #729518;
+	color: #FFF;
+	font-family: 'Montserrat',sans-serif !important;
+	/*opacity: 0.7;*/
+}
+
+/* --------Couleurs menu sans sous-menu ----------------------------------- */
 #hmenu>li.mititle:hover>a {
-	background: green !important;
-	color: red !important;
+	background: #B2AFC4;
+	color: #fff;
 	}
+/* --------FIN Couleurs menu sans sous-menu ----------------------------------- */
+
+
+
+/*-------------------------------------- MENU HORIZONTAL */
+#headermenu
+{
+	width: 100%;
+	background-color: #FFF;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #e6e6e6;
+}
+
+#hmenu
+{
+	padding: 0;
+	margin-bottom: -1px;
+	justify-content: center;
+}
+
+/* masquer les puces sur le menu (si APP Mega Menu) */
+.c-app-menu100__main-item.has-submenu > a.menu:after
+{
+	display: none !important;
+}
+
+/*-------------------------------------- MENU HORIZONTAL - PREMIER NIVEAU */
+/* Titre avec lien, titre sans lien */
+#hmenu > li.mititle > a,#hmenu > li.mititle > span
+{
+	background-color: transparent;
+	color: #0c0c0c;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: none !important;
+}
+
+/* Texte avec lien, texte sans lien */
+#hmenu > li.mitext > a,#hmenu > li.mitext > span
+{
+	background-color: transparent;
+	color: #0c0c0c;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#pmenu4395649 {
+	border-bottom:2px solid #e0575b;
+
+}
+
+#pmenu4224295
+{
+	border-bottom:2px solid #DE334A;
+}
+
+#pmenu4507819
+{
+	border-bottom:2px solid #FCBA04;
+}
+
+#pmenu4395715
+{
+	border-bottom:2px solid #78B92B;
+}
+
+#pmenu4276832
+{
+	border-bottom:2px solid #00d2ca;
+}
+
+#pmenu4224296
+{
+	border-bottom:2px solid #f28a3a;
+}
+
+#pmenu4224297
+{
+	border-bottom:2px solid #1e9b4f;
+}
+
+#pmenu4277590
+{
+	border-bottom:2px solid #00A6D2;
+}
+
+#pmenu4224298
+{
+	border-bottom:2px solid #562504;
+}
+
+#pmenu4224299
+{
+	border-bottom:2px solid #e84927;
+}
+
+#pmenu4218598
+{
+	border-bottom:2px solid #612651;
+}
+
+/* Texte avec lien au survol, texte actif */
+#hmenu > li.mititle:hover > a,#hmenu > li.mititle.is-current > a.menu
+{
+	color: #FFF;
+}
+
+#hmenu > li#pmenu4224295.mititle:hover > a,#hmenu > li#pmenu4224295.mititle.is-current > a.menu
+{
+	background-color: #DE334A;
+}
+
+#hmenu > li#pmenu4507819.mititle:hover > a,#hmenu > li#pmenu4507819.mititle.is-current > a.menu
+{
+	background-color: #FCBA04;
+}
+
+#hmenu > li#pmenu4395649.mititle:hover > a,#hmenu > li#pmenu4395649.mititle.is-current > a.menu
+{
+	background-color: #e0575b;
+}
+
+#hmenu > li#pmenu4395715.mititle:hover > a,#hmenu > li#pmenu4395715.mititle.is-current > a.menu
+{
+	background-color: #78B92B;
+}
+
+#hmenu > li#pmenu4276832.mititle:hover > a,#hmenu > li#pmenu4276832.mititle.is-current > a.menu
+{
+	background-color: #00d2ca;
+}
+
+#hmenu > li#pmenu4224296.mititle:hover > a,#hmenu > li#pmenu4224296.mititle.is-current > a.menu
+{
+	background-color: #f28a3a;
+}
+
+#hmenu > li#pmenu4224297.mititle:hover > a,#hmenu > li#pmenu4224297.mititle.is-current > a.menu
+{
+	background-color: #1e9b4f;
+}
+
+#hmenu > li#pmenu4277590.mititle:hover > a,#hmenu > li#pmenu4277590.mititle.is-current > a.menu
+{
+	background-color: #00A6D2;
+}
+
+#hmenu > li#pmenu4224298.mititle:hover > a,#hmenu > li#pmenu4224298.mititle.is-current > a.menu
+{
+	background-color: #562504;
+}
+
+#hmenu > li#pmenu4224299.mititle:hover > a,#hmenu > li#pmenu4224299.mititle.is-current > a.menu
+{
+	background-color: #e84927;
+}
+
+#hmenu > li#pmenu4218598.mititle:hover > a,#hmenu > li#pmenu4218598.mititle.is-current > a.menu
+{
+	background-color: #B2AFC4;
+}
+
+#hmenu > li#pmenu4224295 ul#menu4224295
+{
+	border: 3px solid  #DE334A;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4507819 ul#menu4507819
+{
+	border: 3px solid  #FCBA04;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4395649 ul#menu4395649
+{
+	border: 3px solid  #e0575b;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4395715 ul#menu4395715
+{
+	border: 3px solid  #78B92B;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4276832 ul#menu4276832
+{
+	border: 3px solid  #00d2ca;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4224296 ul#menu4224296
+{
+	border: 3px solid  #f28a3a;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4224297 ul#menu4224297
+{
+	border: 3px solid  #1e9b4f;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4277590 ul#menu4277590
+{
+	border: 3px solid  #00A6D2;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4224298 ul#menu4224298
+{
+	border: 3px solid  #562504;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4224299 ul#menu4224299
+{
+	border: 3px solid  #e84927;
+	margin-top: -1px !important;
+}
+
+#hmenu > li#pmenu4218598 ul#menu4218598
+{
+	border: 3px solid  #B2AFC4;
+	margin-top: -1px !important;
+}
+
+
+
+/*-------------------------------------- MENU HORIZONTAL - SECOND NIVEAU */
+#hmenu ul.submenu
+{
+	background-color: #FFF;
+	padding: 20px;
+	box-shadow: none;
+}
+
+/* Titre avec lien, titre sans lien */
+#hmenu ul.submenu li.mititle > a,#hmenu ul.submenu li.mititle > span
+{
+	background-color: transparent;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+#hmenu ul#menu4224295.submenu li.mititle > a,#hmenu ul#menu4224295.submenu li.mititle > span
+{
+	color: #DE334A;
+}
+
+#hmenu ul#menu4507819.submenu li.mititle > a,#hmenu ul#menu4507819.submenu li.mititle > span
+{
+	color: #FCBA04;
+}
+
+#hmenu ul#menu4395649.submenu li.mititle > a,#hmenu ul#menu4395649.submenu li.mititle > span
+{
+	color: #E0575B;
+}
+
+#hmenu ul#menu4395715.submenu li.mititle > a,#hmenu ul#menu4395715.submenu li.mititle > span
+{
+	color: #78B92B;
+}
+
+#hmenu ul#menu4276832.submenu li.mititle > a,#hmenu ul#menu4276832.submenu li.mititle > span
+{
+	color: #00d2ca;
+}
+
+
+#hmenu ul#menu4224296.submenu li.mititle > a,#hmenu ul#menu4224296.submenu li.mititle > span
+{
+	color: #f28a3a;
+}
+
+#hmenu ul#menu4224297.submenu li.mititle > a,#hmenu ul#menu4224297.submenu li.mititle > span
+{
+	color: #1e9b4f;
+}
+
+#hmenu ul#menu4277590.submenu li.mititle > a,#hmenu ul#menu4277590.submenu li.mititle > span
+{
+	color: #00A6D2;
+}
+
+#hmenu ul#menu4224298.submenu li.mititle > a,#hmenu ul#menu4224298.submenu li.mititle > span
+{
+	color: #562504;
+}
+
+#hmenu ul#menu4224299.submenu li.mititle > a,#hmenu ul#menu4224299.submenu li.mititle > span
+{
+	color: #e84927;
+}
+
+#hmenu ul#menu4218598.submenu li.mititle > a,#hmenu ul#menu4218598.submenu li.mititle > span
+{
+	color: #B2AFC4;
+}
+
+
+
+/* Titre avec lien au survol */
+#hmenu ul.submenu li.mititle:hover > a
+{
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/* Texte avec lien, texte sans lien */
+#hmenu ul.submenu li.mitext > a,#hmenu ul.submenu li.mitext > span
+{
+	background-color: transparent;
+	color: #292929;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	opacity: 0.5;
+	transition: all 0.2s linear;
+}
+
+/* Texte avec lien au survol */
+#hmenu ul.submenu li.mitext:hover > a
+{
+	background-color: transparent;
+	color: #888;
+	text-decoration: underline;
+}
+/*-------------------------------------- Couleur #612651 onglet info Agefiph */
+a#amenu4218598 {
+	background-color: #ffffff;
+	font-weight: 500 !important;
+}
+a#amenu4218598:hover {
+	background-color: #612651 !important;
+	color:#ffffff !important;
+}
+/*-------------------------------------- FIN | Couleur #612651 onglet info Agefiph */
+
+/*-------------------------------------- FOOTER */
+#footercontainer
+{
+	background-color: #EFEFEF;
+}
+
+#footercontainer #footermenu[cs-menu-col] ul
+{
+	padding-top: 0;
+}
+
+#footercontainer #footermenu .mititle a,#footercontainer #footermenu .mititle span
+{
+	color: #565656;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#footercontainer #footermenu .mititle:after,#footercontainer #footermenu .mititle:after
+{
+	/* masquer trait sous les titres si besoin */
+	/* color: transparent;
+	*/
+	color: #565656;
+}
+
+#footercontainer #footermenu .mitext a,#footercontainer #footermenu .mitext span
+{
+	color: #888888;
+	font-size: 14px;
+	font-weight: 300;
+	opacity: 1;
+}
+
+#poweredby, #copyright
+{
+	margin-bottom: 20px !important;
+	padding: 20px 0 !important;
+}
+
+#footercontainer #copyright span,#footercontainer #poweredby a
+{
+	color: #888888;
+	font-size: 13px;
+	font-weight: 400;
+	opacity: 1;
+}
+
+#footercontainer #footermenu a:hover,#footercontainer #poweredby a:hover
+{
+	text-decoration: underline;
+}
+
+/*-------------------------------------- NEWSLETTER */
+.c-app-subscribe-to-news__title
+{
+	color: #565656 !important;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	margin-bottom: 10px;
+}
+
+.c-app-subscribe-to-news
+{
+	padding: 0 !important;
+}
+
+.c-app-subscribe-to-news__input
+{
+	width: 410px !important;
+	height: 59px !important;
+	line-height: 59px !important;
+	min-height: 59px !important;
+	color: #0c0c0c !important;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	background-color: #efefef !important;
+	border-radius: 0 !important;
+	border: 1px solid #0c0c0c !important;
+	border-width: 1px 0 1px 1px;
+	vertical-align: middle !important;
+	padding-left: 20px !important;
+	margin-right: -5px !important;
+}
+
+.c-app-subscribe-to-news__input::placeholder
+{
+	opacity: 1;
+}
+
+.c-app-subscribe-to-news__button
+{
+	width: 110px !important;
+	height: 59px !important;
+	line-height: 59px !important;
+	min-height: 59px !important;
+	color: #ffffff !important;
+	font-size: 13px !important;
+	font-weight: 700 !important;
+	background-color: #612651 !important;
+	border-radius: 0 !important;
+	border: 0 !important;
+}
+
+/*-------------------------------------- FILTRES LISTES */
+[cs-double-slider] .sliderContainer .cursor:nth-of-type(2) span.ruler
+{
+	background-color: #666666;
+}
+
+.blockfacets .facettypecheckbox .selectedfacet label:before,.blockfacets .facettyperadio .selectedfacet label:before
+{
+	color: green;
+}
+
+.blockfacets .facettypecheckbox .facet:hover label:before,.blockfacets .facettyperadio .facet:hover label:before
+{
+	border-color: #666666;
+}
+
+.facettypevaluegrid .facetvalue:hover
+{
+	border-color: #666666;
+}
+
+.facettypevaluegrid .facetvalue .selectedfacet .facetvalue
+{
+	border: 2px solid #666666;
+}
+
+.facettypecolorgrid .facet:hover,.facettypeimagegrid .facet:hover
+{
+	border-color: #666666;
+}
+
+.facettypecolorgrid .facet.selectedfacet,.facettypeimagegrid .facet.selectedfacet
+{
+	border: 2px solid #666666;
+}
+
+.facettypecolorlist .facet:hover .facetcolor,.facettypeimagelist .facet:hover .facetimage
+{
+	border-color: #666666;
+}
+
+.facettypecolorlist .facet.selectedfacet .facetcolor,.facettypeimagelist .facet.selectedfacet .facetimage
+{
+	border: 2px solid #666666;
+}
+
+/*-------------------------------------- SOMMAIRE COMPTE CLIENT */
+/* liens sommaire compte client */
+.useraccount.userdashboard ul.menulist .PBBtnStd
+{
+	color: #565656 !important;
+	background-color: #F8F8F8;
+	border: 1px solid #F8F8F8;
+}
+
+/* liens sommaire compte client au survol */
+.useraccount.userdashboard ul.menulist .PBBtnStd:hover
+{
+	color: #565656 !important;
+	background-color: #FFF;
+	border: 1px solid #d0d0d0;
+}
+
+/* lien Mot de passe oublie ? avant la connextion */
+.LoginPwdRecovery .PBBtnStd
+{
+	color: #565656 !important;
+}
+
+/* points fidelite */
+.scshopcart .fidelityrewardpoints
+{
+	color: green;
+}
+
+/*-------------------------------------- PANIER */
+.shopcarttable .carthead>td,.shopcarttable .viewPaymentSelection .sectiondata__title>td
+{
+	border-bottom: 1px solid #000;
+}
+
+/* points fidelite */
+#FidelityPoints
+{
+	color: green;
+}
+
+/*--------------------------------------- FIL D'ARIANE */
+.catalog .catbreadcrumb li a,.sccatalog .catbreadcrumb li a
+{
+	color: #565656;
+}
+
+/* dernier element */
+.catalog .catbreadcrumb li:last-child a,.sccatalog .catbreadcrumb li:last-child a
+{
+	color: #666666;
+}
+
+/*--------------------------------------- CHOIX D'UNE AUTRE ADRESSE DANS LE TUNNEL COMMANDE - /PBAddrBook.asp */
+.oxAddrCurrent .oxAddrLFullName:before
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: -1;
+	border: 1px solid #d0d0d0;
+}
+
+/*--------------------------------------- designcolor scheme */
+.sectiondata #expDiaporama a.taghighlighted,body.PB .speechBubble
+{
+	background-color: #565656;
+}
+
+.designBackColorMain,.designBackColorMainHover:hover
+{
+	background-color: #F8F8F8;
+	color: #565656 !important;
+}
+
+.designBackColorMain:hover
+{
+	background-color: #F8F8F8;
+}
+
+.designColorMain,.designColorMainHover:hover
+{
+	color: #565656;
+}
+
+.designColoredSub
+{
+	color: #fff;
+}
+
+.designBackColorSub
+{
+	background-color: #F8F8F8;
+}
+
+.designBackColorMainHover:hover .designTextColorMainHover,.designColoredSub:hover,.designTextColorMain,.designTextColorMainHover:hover,.designTextColorSub
+{
+	color: #fff;
+}
+
+.designBackColorTer
+{
+	background-color: #F8F8F8;
+}
+
+.designTextColorTer
+{
+	color: #fff;
+}
+
+.c-oxmap__listElem.selected
+{
+	border-color: #d0d0d0;
+	background-color: #FFF;
+	box-shadow: none;
+}
+
+.PBRequired
+{
+	color: #ff0000;
+	font-weight: 700;
+}
+
+/*--------------------------------------- LISTES CATEGORIES, LISTES ARTICLES, PAGE RECHERCHE */
+/* masquer le titre Boutique (listes categories/articles) */
+.sccatalog.itemlist .viewTitle__headline,.sccatalog.itemlist .viewTitle__actions
+{
+	display: none;
+}
+
+/* masquer le border en dessous le fil d'ariane et au dessus des listes (listes categories/articles) */
+.sccatalog.itemlist .viewCatHeader:not(.viewCatHeader--bottom) .sectiondataarea.sectioncatheader, .itemlist .viewTitle .sectiontbarea
+{
+	border: none;
+}
+
+/* bordure au survol des elements (listes categories/articles/recherche) */
+.sccatalog.itemlist .oxcell .sectiondata,.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell
+{
+	border: 0 !important;
+	transition: all 0.3s ease;
+}
+
+.sccatalog.itemlist .oxcell .sectiondata:hover,.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell:hover
+{
+	border: 0 !important;
+	transition: all 0.3s ease;
+}
+
+/* titre (listes categories/articles/recherche) */
+.viewCatHeader .sectiondata.sectioncatheader .PBSTitle.PBCatTitle,.sccatalog.searchpage .viewTitle .viewTitle__headline-title .PBPTitle
+{
+	font-size: 26px;
+	font-weight: 400;
+	color: #612651;
+}
+
+/* entete (listes categories/articles) */
+.viewCatHeader .sectiondata.sectioncatheader .PBLongTxt
+{
+	font-size: 15px;
+	font-weight: 300;
+	color: #b1afac;
+}
+
+/* nom des articles/categories (listes categories/articles/recherche) */
+.viewItemList .datatbl .oxcell .sectiondata .PBItemName .PBMainTxt,.viewCatList__row .oxcell .sectiondata .PBMainTxt,.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemName.PBMainTxt
+{
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: 500;
+	color: #292929;
+}
+
+/* description des articles/categories (listes categories/articles/recherche) */
+.viewItemList .datatbl .oxcell .sectiondata .PBItemDesc1 .PBShortTxt,.viewCatList__row .oxcell .sectiondata .PBLongTxt,.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemDesc.PBShortTxt
+{
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 300;
+	color: #6a5f4f;
+	font-family: 'Montserrat',sans-serif !important;
+}
+
+/* espace entre les images (listes articles) */
+/* .viewItemList .datatbl .oxcell .sectiondata .PBItemImg
+{
+	margin-top: 25px;
+	
+} */
+
+/* espace entre les images (recherche) */
+/* .sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemImg
+{
+	margin: 25px 0;
+	
+} */
+
+/* placer le prix barre a cote du prix (listes articles) */
+.viewItemList .datatbl .oxcell .sectiondata .PBItemPrice .PBCurrency
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+/* prix des articles (listes articles/recherche) */
+.viewItemList .datatbl .oxcell .sectiondata .PBItemPrice .PBCurrency .PBSalesPrice,.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemPrice .PBCurrency
+{
+	font-size: 17px;
+	font-weight: 700;
+	color: #612651 !important;
+	font-family: 'Montserrat',sans-serif;
+}
+
+/* masquer le pourcentage reduction (listes articles) */
+/* .viewItemList .datatbl .oxcell .sectiondata .PBItemPrice .PBCurrency .PBDiscount
+{
+	display: none;
+} */
+
+/* prix barre des articles (listes articles) */
+/* .viewItemList .datatbl .oxcell .sectiondata .PBItemPrice .PBCurrency .PBStrike
+{
+	font-size: 18px;
+	font-weight: 300;
+	color: #6a5f4f;
+	margin: 0 10px;
+} */
+
+/* texte stock des articles (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemStock .PBShortTxt.PBMsgInStock
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #6a5f4f;
+}
+
+/* couleur check stock des articles (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemStock .PBShortTxt.PBMsgInStock:before
+{
+	color: green;
+}
+
+/* couleur fond message si trop de resultats ou aucun resultat (listes recherche) */
+.viewResultTruncWarnMsg .sectiondataarea,.viewResultNone .sectiondataarea
+{
+	background-color: #F8F8F8;
+}
+
+/* changer l'ordre des elements (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell
+{
+	display: flex;
+	flex-direction: column;
+}
+
+/* position element image (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemImg
+{
+	order: 1;
+}
+
+/* position element nom article (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemName.PBMainTxt
+{
+	order: 2;
+}
+
+/* position element description article (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemDesc.PBShortTxt
+{
+	order: 3;
+	margin: 30px 0 20px 0;
+}
+
+/* position element prix (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemPrice
+{
+	order: 4;
+}
+
+/* position element stock (listes recherche) */
+.sccatalog.searchpage .viewResultList td .sectiondata .sectiondataarea #searchAnswers .oxcell .PBItemStock
+{
+	order: 5;
+}
+
+/*Bloc stock affichage liste article */
+.PBShortTxt .PBMsgInStock
+{
+	font-size: 20px !important;
+	font-weight: 100 !important;
+}
+
+.imgheader {
+	filter :opacity(100%);
+}
+
+/*.imgheader:hover {
+	filter :opacity(70%);
+}
+*/
+.accountLink {
+	filter :opacity(100%);
+}
+.accountLink:hover {
+	filter :opacity(70%);
+}
+
+span.PBShortTxt.PBMsgInStock{
+font-size: 15px !important;
+font-family: 'Montserrat',sans-serif;
+line-height: unset !important;
+}
+/* --------------------LABEL HT-----------------------------------------------*/
+.c-cs-product-vat-info--app-vat-label {
+    font-size: .66em !important;
+    vertical-align: top !important;
+    font-weight: 400 !important;
+}
+
+.c-ox-product-detail--template-studio-simple .c-ox-product-detail__price-zone .PBDiscount {
+
+    background-color: #ffffff !important;
+    height: 40px !important;
+    width: 80px !important;
+		border: 1px solid #999 !important;
+    border-radius: 10% !important;
+    color: #999999 !important;
+
+	}
+	.PBStrike {
+text-align:right !important;
+	}
+/* --------------------FIN LABEL HT-----------------------------------------------*/
+/* --------------------STYLE BOUTON ACHAT-----------------------------------------------*/
+a#btncaptcha.btnmain {
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #94c11f !important;
+	font-weight: 500 !important;
+}
+
+a#btncaptcha.btnmain:hover {
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #729518 !important;
+	font-weight: 500 !important;
+}
+
+a#btnConnect.btnmain {
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #94c11f !important;
+	font-weight: 500 !important;
+}
+
+a#btnConnect.btnmain:hover {
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #729518 !important;
+	font-weight: 500 !important;
+}
+a#btnCreateAccount.btnmain{
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #94c11f !important;
+	font-weight: 500 !important;
+}
+
+a#btnCreateAccount.btnmain:hover{
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #729518 !important;
+	font-weight: 500 !important;
+}
+
+a#btncontinue.btnmain{
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #94c11f !important;
+	font-weight: 500 !important;
+}
+
+a#btncontinue.btnmain:hover{
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #729518 !important;
+	font-weight: 500 !important;
+}
+
+a#btncheckout.btnmain{
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #94c11f !important;
+	font-weight: 500 !important;
+}
+
+a#btncheckout.btnmain:hover{
+	border: none !important;
+	color: #ffffff !important;
+	background-color: #729518 !important;
+	font-weight: 500 !important;
+}
+
+
+/* --------------------FIN STYLE BOUTON ACHAT-----------------------------------------------*/
+span.PBLongTxt {
+	font-size: 16px !important;
+}
+
+span.PBItemDesc {
+	font-size: 16px !important;
+}
+
+.menupolice {
+	text-transform: capitalize !important;
+	font-size : 14px !important;
+}
+
+/* --------------------BOUTON Nous contacter-----------------------------------------------*/
+
+.BoutonNousContacter {
+    line-height: 1.7 !important; 
+
+    height:40px !important;
+    background-color: #612651 !important;
+    color: #ffffff !important;
+	text-decoration:none !important;
+	cursor: pointer;
+	font-size: 13px !important;
+	text-decoration: none;
+	padding: 8px 30px;
+	text-align: center;
+	vertical-align: middle;
+	/* margin-top: 5px !important;
+	margin-bottom: 5px !important; */
+}
+.BoutonNousContacter:hover {
+color:#ffffff !important;
+background-color: #37152e !important;
+/* border: 1px solid #7c7c7c; */
+cursor: pointer;
+text-decoration: none;
+padding: 8px 30px;
+}
+/* --------------------FIN BOUTON Nous contacter-----------------------------------------------*/
+/* --------------------contenu pleine page ----------------------------------------------------*/
+.container--content-width {
+	max-width:100% !important;
+}
+#bodyarea, #footerarea, #headerarea, #hmenu{
+	max-width:100% !important;
+}
+
+/* --------------------fin contenu pleine page -----------------------------------------------*/
+/*---------------------Bouton de demande de devis---------------------------------------------*/
+.BoutonDevis {
+	border-radius: 50px;
+	background-color: #B2AFC4;
+	color: #ffffff !important;
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 1;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: block;
+	flex-basis: 0%;
+	flex-grow: 1;
+	flex-shrink: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	height: 50px;
+	letter-spacing: normal;
+	line-height: 50px;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	min-height: 50px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: auto;
+	max-width: 75%;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+
+
+
+
+
+}
+
+.BoutonDevis:hover {
+	background-color: #612651;
+}
+/*-------------------------------FIN Bouton de demande de devis------------------------------*/
+
+.traitautourtexte
+{
+	margin-bottom: 0.7em;
+	text-align: center;
+}
+
+@media (max-width: 30rem)
+{
+	.traitautourtexte
+	{
+		padding-bottom: 0.25em;
+		border-bottom: 0.15em solid #7b7c7d;
+	}
+}
+
+@media (min-width: 30rem)
+{
+	.traitautourtexte
+	{
+		overflow: hidden;
+		position: relative;
+	}
+
+	.traitautourtexte::before, .traitautourtexte::after
+	{
+		content: '';
+		display: inline-block;
+		width: 100%;
+		vertical-align: middle;
+		margin-top: 0.3em;
+		border-bottom: 0.15em solid #7b7c7d;
+	}
+
+	.traitautourtexte::before
+	{
+		margin-left: -100%;
+		margin-right: 1%;
+	}
+
+	.traitautourtexte::after
+	{
+		margin-right: -100%;
+		margin-left: 1%;
+	}
+}
+
+
+/* --------tous les articles fil ariane ----------------------------------------------------------------- */
+.catbcall {
+	display: none !important;
+}
+/* --------FIN  tous les articles fil ariane ----------------------------------------------------------------- */
+/* -------- images catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gories ----------------------------------------------------------------- */
+span.PBLongTxt > a > img {
+
+display: block !important;
+/*margin-left: auto !important;*/
+margin-right: auto !important;
+margin-top: 50px !important;
+/*width: 100% !important;*/} 
+/* --------  FIN images catÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©gories ----------------------------------------------------------------- */
+
+h1.PBSTitle.PBCatTitle {
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 30px !important;
+	font-weight: 700 !important;
+	color: #565656 !important;
+	line-height: 1.4 !important;
+
+}
+
+/* --------  texte description sous demande de devis ------------------------------------------------ */
+.textedescription {
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	color: #565656 !important;
+	line-height: 1.4 !important;
+	margin-left: 20px  !important;
+}
+/* -------- FIN texte description sous demande de devis --------------------------------------------- */
+/* --------PU$*IN DE DESCRIPTION AVEC POLICE DE M$ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£DE F$$K F$$K--------------------------------------- */
+
+span.PBLongTxt.PBItemDesc {
+	font-family: 'Montserrat', sans-serif !important;
+	font-family: 'Montserrat', sans-serif !important;	
+}
+.c-ox-product-detail--template-studio-simple *:not(.fa){
+	font-family: 'Montserrat', sans-serif !important;
+}
+#maincontainer.catalog.itemdetail .PBMainTxt.PBItemTitle, #maincontainer.sccatalog.itemdetail .PBMainTxt.PBItemTitle {
+	font-family: 'Montserrat', sans-serif !important;	}
+
+/* --------PU$*IN DE DESCRIPTION AVEC POLICE DE M$ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£DE F$$K F$$K--------------------------------------- */
+/* --------  Champ quantitÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢  5 chiffres dans paniers d'acahats -------------------------------------- */
+.cartlineqty input.PB {
+	width:70px !important;
+	left:0 !important;
+}
+.cartlineqty .PBBtnStd+.PBBtnStd {
+	margin-left: 0 !important;
+	position: relative !important;
+	left: -30px !important;}
+
+input.PB {
+	border-left: 2px solid #e3e3e3 !important;
+}
+/* --------FIN  Champ quantitÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢  5 chiffres dans paniers d'acahats ----------------------------------- */
+
+
+
+/* -------- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX---------------------------------------- */
+.ImageMenuObjetsPublicitaires{
+	position: absolute !important;
+	width: 350px !important;
+	height: auto !important;
+	right: 5% !important;
+}
+.ImageMenuPapeterie{
+	position: absolute !important;
+	width: 300px !important;
+	height: auto !important;
+	right: 5% !important;
+}
+/* --------FIN  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ----------------------------------- */
+
+/* -------- APP recherche par SKU---------------------------------------- */
+/* .c-fast-entry__zone {
+    vertical-align: middle !important;
+    margin: 0 auto !important;
+    width: 20% !important;
+ } */
+ .c-fast-entry__reference-label {
+     font-size:20px !important;
+ }
+
+
+.c-fast-entry__search-button {
+    background-color: #612651 !important;
+    color: #ffffff !important;
+        }
+    
+    .c-fast-entry__search-button:hover {
+        background-color: #B2AFC4 !important;
+    } 
+    /* a#btnordernow.c-cs-add-to-cart.btnmain.btnaddtocart.btnordernow.ng-scope {
+        padding-right: 39% !important;
+        padding-left: 38% !important;
+    } */
+    .c-fast-entry__sku{
+        font-size:16px !important;
+    }
+
+
+/* --------FIN  APP recherche par SKU ----------------------------------- */
+
+/* -------- Supprimer description dans rÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©sultat de recherche interne---------------------------------------- */
+div.PBItemDesc.PBShortTxt{
+    display:none !important;
+}
+/* --------FIN  Supprimer description dans rÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©sultat de recherche interne ----------------------------------- */
+
+
+/* -------- espace entre compte et panier---------------------------------------- */
+#headercontainer [cs-login] .c-cs-login__wrapper, #headerInfoCart.header-shop-cart__inner, .header-account__inner {
+    min-width:70px !important; 
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+/* --------FIN  espace entre compte et panier ----------------------------------- */
+
+/* -------- taille stickers fiche article---------------------------------------- */
+img.c-app-preview-sticker__value-img {
+    width: 60px !important;
+    height: 60px !important;
+    max-width: 60px !important;
+    max-height: 60px !important;
+}
+
+/* --------FIN  taille stickers fiche article ----------------------------------- */
+
+/* -------- Block couleur affichage article---------------------------------------- */
+.oxcell>.sectiondata>.sectiondataarea, .viewRelatedProducts .PBLayoutTable>tbody, div#searchAnswers .oxcell, div.OxSearchPanelDataLink {
+	background-color: #f7f7f7 !important;
+	border-radius: 3% !important;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.oxcell>.sectiondata>.sectiondataarea:hover{
+	background-color: #efefef !important;
+}
+
+
+
+/* -------- Pourcentage promo dans affichage liste article gamme---------------------------------------- */
+span.PBDiscount {
+	font-size:1px;
+}
+/* --------FIN  Pourcentage promo dans affichage liste article gamme ----------------------------------- */
+
+/* -------- app preview couleur article enfant---------------------------------------- */
+.oxcell[data-pdt-id] .PBItemImg[target-of*=appPreviewOptions] .c-app-preview-options {
+	background-color: transparent !important;
+	width: 83% !important;
+	margin-left: 8.5% !important;
+	margin-right: 8.5% !important;}
+/* --------FIN  app preview couleur article enfant ----------------------------------- */
+
+/* -------- coloris assortis (carrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© arc-en-ciel) couleur picto---------------------------------------- */
+.facetcolorempty, .facetimageempty {
+	background:transparent url(https://www.andikado-boutique.com/Files/131592/coloris-assortis.png) !important;
+	background-image: url(https://www.andikado-boutique.com/Files/131592/coloris-assortis.png) !important;}
+
+a[title="Coloris assortis"] > div.c-app-preview-options__color{
+	background:transparent url(https://www.andikado-boutique.com/Files/131592/coloris-assortis-20px.png) !important;
+	background-image: url(https://www.andikado-boutique.com/Files/131592/coloris-assortis-20px.png) !important;}
+
+/* --------FIN  coloris assortis (carrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© arc-en-ciel) couleur picto ----------------------------------- */
+
+
+/* -------- cadre / bordure blanche image---------------------------------------- */
+
+/*dans catÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©gorie*/
+div.sectiondataarea > img > *{
+	outline: 10px solid white !important;
+	outline-offset: -3px !important;
+}
+div.sectiondataarea > table > tbody > tr > td > a > img {
+    outline: 10px solid white !important;
+	outline-offset: -3px !important;
+    }
+/*dans liste article*/
+.imgthumbnail{
+    outline: 10px solid white !important;
+	outline-offset: -7px !important;
+    }
+/*dans fiche article*/
+	div.imgcontainer img[src*="Files/131592/Img/"] {
+        outline: 10px solid white !important;
+	outline-offset: -7px !important;
+}
+/* --------FIN cadre / bordure blanche image ----------------------------------- */
+
+/* -------- supprimer "prix pour une unitÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©" dans fiche article ---------------------------------------- 
+#bodydata > form > div > div > div.c-ox-product-detail__main-container.l-ox-page__container > div > div.c-ox-product-detail__infos-container.l-ox-grid__col-fill.l-ox-grid.l-ox-grid--direction-column > div.c-ox-product-detail__small-description.l-ox-grid__col-auto > span > span {
+	display:none !important;
+}
+ --------FIN  supprimer "prix pour une unitÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©" dans fiche article ----------------------------------- */
+
+.Apartirde {
+	font-size: 16px !important;
+color: rgb(145, 145, 145) !important;
+font-family: 'Montserrat', sans-serif !important;
+font-weight: 400 !important;
+}
+.prixremiseApartirde {
+	color: #612651 !important;
+font-weight: 600 !important;
+font-size: 23px !important;
+}
+.l-ox-product-list__buy-button {
+display:none !important;
+}
+/* ------ DEBUT AFFICHAGE MARQUE FICHE ARTICLE ---------- */
+
+
+/*.c-ox-product-detail__brand-image {display: initial !important;padding-left: 0px !important;}*/
+/*.c-ox-brand-image {display: initial !important;}*/
+/*.c-ox-brand-image__image {display: initial !important;}*/
+
+
+/* ------ FIN AFFICHAGE MARQUE FICHE ARTICLE ---------- */
+
+/* ---- DEBUT Espace sur bouton demande de devis ---- */
+#bodydata > form > div > div > div.c-ox-product-detail__main-container.l-ox-page__container > div > div.c-ox-product-detail__infos-container.l-ox-grid__col-fill.l-ox-grid.l-ox-grid--direction-column > div.c-ox-product-detail__attachement.l-ox-grid__col-auto {
+	padding:0px !important;
+	max-width : 700px !important;
+}
+/* ---- FIN Espace sur bouton demande de devis ---- */
+
+/* ---- DEBUT DESIGN BOUTON DEMANDE DE DEVIS ---- */
+#bodydata > form > div > div > div.c-ox-product-detail__main-container.l-ox-page__container > div > div.c-ox-product-detail__infos-container.l-ox-grid__col-fill.l-ox-grid.l-ox-grid--direction-column > div.c-ox-product-detail__attachement.l-ox-grid__col-auto > a {
+	border-radius: 50px;
+	background-color: #612651;
+	color: #ffffff !important;
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 1;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: block;
+	flex-basis: 0%;
+	flex-grow: 1;
+	flex-shrink: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	height: 50px;
+	letter-spacing: normal;
+	line-height: 50px;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	min-height: 50px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: auto;
+	max-width: 100%;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	border:none !important;
+}
+
+#bodydata > form > div > div > div.c-ox-product-detail__main-container.l-ox-page__container > div > div.c-ox-product-detail__infos-container.l-ox-grid__col-fill.l-ox-grid.l-ox-grid--direction-column > div.c-ox-product-detail__attachement.l-ox-grid__col-auto > a:hover {
+background-color: #B2AFC4;
+}
+
+/* ---- ECART ENTRE SLIDER ET MENU ---- */
+.viewtbl:not(.viewtblsplitted), .viewtblsplitcol1content {
+    padding: 0px 15px !important;
+}
+/* ---- FIN ECART ENTRE SLIDER ET MENU ---- */
+
+/* ---- PROPRIETE TABLEAU TAILLE VETEMENT, PRESENT DANS FICHE ARTICLE ---- */
+.tableautaille {
+	font-size: 12px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #a9a9a9;
+	border-collapse: collapse;
+}
+
+.tableautaille th {
+	font-size: 12px;
+	background-color: #b8b8b8;
+	border-width: 1px;
+	margin: 8px;
+	border-style: solid;
+	border-color: #a9a9a9;
+	text-align: center;
+	width: 9%;
+}
+
+.tableautaille tr {
+	background-color: #cdcdcd;
+}
+
+.tableautaille td {
+	font-size: 12px;
+	border-width: 1px;
+	margin: 8px;
+	border-style: solid;
+	border-color: #a9a9a9;
+	text-align: center;
+}
+
+.tableaulargeur {
+            width: 15% !important;
+        }
+
+/* ---- FIN PROPRIETE TABLEAU TAILLE VETEMENT, PRESENT DANS FICHE ARTICLE ---- */
+
+/* ---- EMPLACEMENT POPUP COOKIES ---- */
+#maincontainer > div.ng-scope.ng-isolate-scope.c-app-cookies.c-app-cookies--classic.c-app-cookies--top.c-app-cookies--left {
+	margin-left : 40% !important;
+	margin-top : 10% !important;
+}
+
+#maincontainer > div.ng-scope.ng-isolate-scope.c-app-cookies.c-app-cookies--classic.c-app-cookies--top.c-app-cookies--left > div > div > div > div.c-app-cookies__buttons > a.c-app-cookies__btn.c-app-cookies__btn--success {
+
+	display: block !important;
+}
+
+#maincontainer > div.ng-scope.ng-isolate-scope.c-app-cookies.c-app-cookies--classic.c-app-cookies--top.c-app-cookies--left > div > div {
+	background: radial-gradient(rgb(51, 51, 51), rgb(51, 51, 51, 0.45)) !important;
+width: 100% !important;
+padding: 50px 30px !important;
+}
+/* ---- FIN EMPLACEMENT POPUP COOKIES ---- */
+
+/* ---- aligner horizontalement icon reseaux sociaux ---- */
+.alignementRS{
+
+	display: inline !important;
+	padding-left:8px !important;
+}
+/* ---- FIN aligner horizontalement icon reseaux sociaux ---- */
+
+/* ---- Fixer le titre des options articles a gauche de la liste article ---- */
+.blockfacet > .title {
+    position: inherit !important;}
+/* ---- FIN Fixer le titre des options articles a gauche de la liste article ---- */
+
+/* ---- Largeur bouton Ajouter au panier dans fiche article ---- */
+#bodydata > form > div > div > div.c-ox-product-detail__main-container.l-ox-page__container > div > div.c-ox-product-detail__infos-container.l-ox-grid__col-fill.l-ox-grid.l-ox-grid--direction-column > div.c-ox-product-detail__buy-button.l-ox-grid__col-auto.l-ox-grid__col--bleed-y{
+	max-width:700px !important;}
+/* ---- FIN Largeur bouton ajouter au panier dans fiche article ---- */
+/* ---- Largeur titre dans fiche article ---- */
+#bodydata > form > div > div > div.c-ox-product-detail__main-container.l-ox-page__container > div > div.c-ox-product-detail__infos-container.l-ox-grid__col-fill.l-ox-grid.l-ox-grid--direction-column > div.c-ox-product-detail__name.l-ox-grid__col-auto.l-ox-grid__col--bleed-y {
+	max-width: 700px !important;}
+/* ---- FIN Largeur titre dans fiche article ---- */
+
+#bodydata > form > div > div > div.c-ox-product-detail__main-container.l-ox-page__container > div > div.c-ox-product-detail__infos-container.l-ox-grid__col-fill.l-ox-grid.l-ox-grid--direction-column > div.c-ox-product-detail__attachement.l-ox-grid__col-auto > br {
+	display:none !important;
+}
+
+/* Prix a partir de dans resume/description courte article*/
+.descprixremise
+{	text-align: center;
+	width : 15em;
+    padding-right: 0px}
+.descprixremise2
+{   text-align: center;
+	width : 15em;}
+.descapartirde1
+{   font-size: 15px;
+	color:black;
+	font-weight: 400;}
+.descapartirde2
+{   font-size: 15px;
+	color:black;
+	font-weight: 400;}
+.descapartirdeXX
+{   font-size:30px;
+	color: #612651;
+	font-weight:500;}
+.descalignright
+{	color :black;}
+.descapartirdetable
+{	font-weight: 200;
+	color:black;
+	font-size: 13px;
+	border-collapse: collapse;}
+.descalignrightprice
+{	font-weight: 400;
+	color:black;
+	font-size:15px;
+	text-align: left;}
+.deschorstaxe
+{	font-size:15px;}
+/* FIN Prix a partir de dans resume/description courte article*/
+div.c-ox-product-detail__cross-sell.l-ox-page__container > div > div.c-ox-product-detail__cross-sell-headline > span {
+	border-bottom: 0px !important;
+	text-transform: uppercase !important;
+}
+div.c-ox-product-detail__cross-sell.l-ox-page__container > div > div.l-ox-grid {
+	border-top: 1px solid #d0d0d0 !important;
+}
+#bodydata > form > div > div > div.c-ox-product-detail__description.l-ox-page__container > div > span > hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
